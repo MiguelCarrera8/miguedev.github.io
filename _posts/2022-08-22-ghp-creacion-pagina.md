@@ -1,27 +1,24 @@
 ---
 layout: single
-title: Delivery - Hack The Box
-excerpt: "Delivery is a quick and fun easy box where we have to create a MatterMost account and validate it by using automatic email accounts created by the OsTicket application. The admins on this platform have very poor security practices and put plaintext credentials in MatterMost. Once we get the initial shell with the creds from MatterMost we'll poke around MySQL and get a root password bcrypt hash. Using a hint left in the MatterMost channel about the password being a variation of PleaseSubscribe!, we'll use hashcat combined with rules to crack the password then get the root shell."
-date: 2021-05-22
+title: Creación de sitio web con Github Pages
+excerpt: "GitHub Pages es una herramienta para poder publicar contenido alojado en un repositorio de GitHub. Esto permite que los usuarios puedan ver el contenido de su sitio web en una página web independiente."
+date: 2022-08-22
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-delivery/delivery_logo.png
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
-  - hackthebox
-  - infosec
+  - Desarrollo web
 tags:  
-  - osticket
-  - mysql
-  - mattermost
-  - hashcat
-  - rules
+  - Páginas web
+  - GitHub Pages
+  - Markdown
 ---
 
 ![](/assets/images/htb-writeup-delivery/delivery_logo.png)
 
-Delivery is a quick and fun easy box where we have to create a MatterMost account and validate it by using automatic email accounts created by the OsTicket application. The admins on this platform have very poor security practices and put plaintext credentials in MatterMost. Once we get the initial shell with the creds from MatterMost we'll poke around MySQL and get a root password bcrypt hash. Using a hint left in the MatterMost channel about the password being a variation of PleaseSubscribe!, we'll use hashcat combined with rules to crack the password then get the root shell.
+GitHub Pages es una herramienta para poder publicar contenido alojado en un repositorio de GitHub. Esto permite que los usuarios puedan ver el contenido de su sitio web en una página web independiente.
 
 ## Portscan
 
