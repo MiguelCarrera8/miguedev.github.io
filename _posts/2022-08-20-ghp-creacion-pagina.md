@@ -30,7 +30,7 @@ Para ello necesitamos un repositorio de GitHub y una cuenta de GitHub.
 
 Para crear un repositorio de GitHub necesitamos una cuenta de GitHub. En la página de inicio de GitHub podemos crear un repositorio de GitHub, seleccionar el tipo de repositorio que queremos crear, público o privado, y pulsar el botón de crear.
 
-![](https://https://github.com/MiguelCarrera8/web-site/assets/images/ghp-creacion-pagina/new-repo.png){width='100px'}
+![](https://github.com/MiguelCarrera8/web-site/blob/master/assets/images/ghp-creacion-pagina/new-repo.png){width='100px'}
 
 ## ¿Cómo hacer una página web independiente?
 
@@ -41,7 +41,7 @@ Te mostrará dos opciones:
 
 A día de hoy solamente he usado la opción de Deploy from a branch. En la página de configuración de Github Pages podemos elegir la rama que queremos publicar y el nombre de la página web que queremos crear, así como el tema que queremos usar. Después de esto tendremos una web para poder lanzar nuestro repositorio de Github.
 
-![](https://https://github.com/MiguelCarrera8/web-site/assets/images/ghp-creacion-pagina/github-pages.png){width='100px'}
+![](https://github.com/MiguelCarrera8/web-site/blob/master/assets/images/ghp-creacion-pagina/github-pages.png){width='100px'}
 
 
 ## ¿Cómo usar un tema para la página web?
