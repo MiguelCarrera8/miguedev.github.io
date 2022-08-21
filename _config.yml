@@ -15,11 +15,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.15.1"
 minimal_mistakes_skin: "haxor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
-title: "miguedev.io"
+locale: "es-ES"
+title: "MiguelDev"
 title_separator: "-"
-name: "Snowscan"
-description: "Posts about security, CTFs and networking"
+name: "MigueDev"
+description: "Mini proyectos de programación"
 url: #"https://snowscan.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "https://github.com/MiguelCarrera8/web-site.git" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Miguedev"
+  name: "MigueDev"
   avatar: "/assets/images/avatar.jpg"
   bio: "Desarrollador web y app"
   location: #"España"
