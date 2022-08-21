@@ -282,7 +282,7 @@ Checking the list of running processes I noticed that the VS Code application wa
 
 ![](/assets/images/htb-writeup-multimaster/getprocess.png)
 
-Phra from the Donkeys HTB team has a [blog post](https://iwantmore.pizza/posts/cve-2019-1414.html) about CVE-2019-1414 which lets users get local execution by using the debug port on the VS Code Node.js server.
+Phra from the Donkeys HTB team has a [blog post](https://iwantmore.pizza/posts/cve-2019-1414.html)  CVE-2019-1414 which lets users get local execution by using the debug port on the VS Code Node.js server.
 
 In a nutshell, the debug port is bound to random TCP port everytime the application starts. Since I already had a shell on the machine I could watch the output of the netstat command and see what port is currently in use.
 

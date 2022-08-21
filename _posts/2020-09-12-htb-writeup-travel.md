@@ -68,7 +68,7 @@ There's nothing interesting on the main web page: it's just a static webpage wit
 
 ## 2nd website - blog.travel.htb
 
-The blog page runs a Wordpress instance and the main page contains a hint about a new RSS feature being released soon from the dev team. This is probably what we will want to look at next.
+The blog page runs a Wordpress instance and the main page contains a hint  a new RSS feature being released soon from the dev team. This is probably what we will want to look at next.
 
 ![image-20200519202315537](/assets/images/htb-writeup-travel/image-20200519202315537.png)
 

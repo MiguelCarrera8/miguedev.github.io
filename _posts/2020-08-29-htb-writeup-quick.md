@@ -65,7 +65,7 @@ Nmap done: 1 IP address (1 host up) scanned in 115.39 seconds
 On the website there's a few tidbits of useful information such as:
 
 - Testimonials with persons names and company names (this will be useful later)
-- There's a weird comment about using Mobile App to access the portal
+- There's a weird comment  using Mobile App to access the portal
 
 ![](/assets/images/htb-writeup-quick/image-20200425192116695.png)
 
@@ -96,7 +96,7 @@ The other pages **db.php**, **search.php**, **ticket.php** can't be accessed dir
 
 ## Quick User portal
 
-Based on that interesting comment in the Update section of the main page and the name of the box, I thought about the QUIC protocol which runs on UDP instead of TCP. A quick port scan of the UDP ports on the box confirms that something is listening on port 443.
+Based on that interesting comment in the Update section of the main page and the name of the box, I thought  the QUIC protocol which runs on UDP instead of TCP. A quick port scan of the UDP ports on the box confirms that something is listening on port 443.
 
 ```
 root@kali:~# nmap -sU -F 10.10.10.186
@@ -110,7 +110,7 @@ PORT    STATE         SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 106.93 seconds
 ```
 
-I used the [Quiche](https://developers.cloudflare.com/http3/intro/http3-client) client from CloudFlare to do QUIC connections to the server. The client has to be compiled from source but the installation instructions on the site are self explanatory. After installing the client I can access the Quick User portal and I see links to **Contact**, **About** and **References**.
+I used the [Quiche](https://developers.cloudflare.com/http3/intro/http3-client) client from CloudFlare to do QUIC connections to the server. The client has to be compiled from source but the installation instructions on the site are self explanatory. After installing the client I can access the Quick User portal and I see links to **Contact**, **** and **References**.
 
 ```
 root@kali:~# http3-client https://10.10.10.186
@@ -124,7 +124,7 @@ root@kali:~# http3-client https://10.10.10.186
 <ul>
   <li><a href="index.php">Home</a></li>
   <li><a href="index.php?view=contact">Contact</a></li>
-  <li><a href="index.php?view=about">About</a></li>
+  <li><a href="index.php?view="></a></li>
   <li><a href="index.php?view=docs">References</a></li>
 ```
 
@@ -142,7 +142,7 @@ The **contact** section has a form to send messages. I thought this could be a v
 </div>
 ```
 
-The **about** section has a list of employee with their email addresses. These could be valid usernames so I make note of these for later.
+The **** section has a list of employee with their email addresses. These could be valid usernames so I make note of these for later.
 
 ```
 [...]

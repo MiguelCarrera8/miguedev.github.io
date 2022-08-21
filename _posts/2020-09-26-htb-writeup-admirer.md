@@ -66,7 +66,7 @@ Login failed.
 
 ## Website
 
-The website has a bunch of pictures but nothing else interesting. The about link with the contact form at the bottom of the page is not functional.
+The website has a bunch of pictures but nothing else interesting. The  link with the contact form at the bottom of the page is not functional.
 
 ![](/assets/images/htb-writeup-admirer/image-20200502182528416.png)
 
