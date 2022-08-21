@@ -7,5 +7,3 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Contacto"
-    url: /about/
