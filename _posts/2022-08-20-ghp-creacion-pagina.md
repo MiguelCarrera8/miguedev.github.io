@@ -16,8 +16,6 @@ tags:
   - Markdown
 ---
 
-![](/assets/images/htb-writeup-delivery/delivery_logo.png)
-
 GitHub Pages es una herramienta para poder publicar contenido alojado en un repositorio de GitHub. Esto permite que los usuarios puedan ver el contenido de su sitio web en una página web independiente.
 
 ## ¿Cómo funciona?
