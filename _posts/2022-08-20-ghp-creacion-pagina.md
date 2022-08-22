@@ -5,9 +5,7 @@ excerpt: "GitHub Pages es una herramienta para poder publicar contenido alojado 
 date: 2022-08-20
 classes: wide
 header:
-  teaser: /assets/images/htb-writeup-delivery/delivery_logo.png
   teaser_home_page: true
-  icon: /assets/images/hackthebox.webp
 categories:
   - Desarrollo web
 tags:  
