@@ -2,7 +2,7 @@
 layout: single
 title: Creación de sitio web con Github Pages
 excerpt: "GitHub Pages es una herramienta para poder publicar contenido alojado en un repositorio de GitHub. Esto permite que los usuarios puedan ver el contenido de su sitio web en una página web independiente."
-date: 2022-08-20
+date: 2022-08-29
 classes: wide
 header:
   teaser_home_page: true
