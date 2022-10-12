@@ -40,7 +40,7 @@ Para poder crear la máquina virtual necesitamos la iso de <a href="https://gofi
   - Seleccionar el sistema operativo Apple MacOS y el número de la versión
   <p align="center">
   <a href="#">
-    <img alt="Paso 3" src="https://raw.githubusercontent.com/MiguelCarrera8/web-site/master/assets/images/mac-virtual-vmware/pasos-maquina-2.png"/>
+    <img alt="Paso 3" src="https://raw.githubusercontent.com/MiguelCarrera8/web-site/master/assets/images/mac-virtual-vmware/opcion-macos-2.png"/>
   </a>
   </p>
 
@@ -55,7 +55,7 @@ Seleccionaremos el idioma y después clicaremos en "Utilidades de disco", selecc
 
 <p align="center">
   <a href="#">
-    <img alt="Paso 3" src="https://raw.githubusercontent.com/MiguelCarrera8/web-site/master/assets/images/mac-virtual-vmware/pasos-maquina-3.png"/>
+    <img alt="Paso 3" src="https://raw.githubusercontent.com/MiguelCarrera8/web-site/master/assets/images/mac-virtual-vmware/opcion-macos-3.png"/>
   </a>
   </p>
 
@@ -65,7 +65,7 @@ Deberemos poner los valores tal como se muestran en la imagen :
 
 <p align="center">
   <a href="#">
-    <img alt="Paso 3" src="https://raw.githubusercontent.com/MiguelCarrera8/web-site/master/assets/images/mac-virtual-vmware/pasos-maquina-4.png"/>
+    <img alt="Paso 3" src="https://raw.githubusercontent.com/MiguelCarrera8/web-site/master/assets/images/mac-virtual-vmware/opcion-macos-4.png"/>
   </a>
   </p>
 
