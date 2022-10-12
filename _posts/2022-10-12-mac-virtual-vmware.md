@@ -2,7 +2,7 @@
 layout: single
 title: Virtualizar máquina de MacOS.
 excerpt: "En VMWare podemos virtualizar un sistema operativo de Mac con varios pasos sencillos"
-date: 2023-10-12
+date: 2022-10-12
 classes: wide
 header:
   teaser_home_page: true
