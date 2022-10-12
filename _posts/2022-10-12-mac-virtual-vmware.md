@@ -47,7 +47,7 @@ Para poder crear la máquina virtual necesitamos la iso de <a href="https://gofi
   - Introducimos el nombre y la ubicación de nuestra máquina virtual.
   - Seleccionamos la memoria del disco y opcionalmente customizamos los componentes.
   
-## Lanzamos la máquina virutal
+## Lanzamos la máquina virtual
 
 Si todo ha salido bien solamente tendremos que lanzar la máquina virtual y saldrá el logo de Apple.
 
